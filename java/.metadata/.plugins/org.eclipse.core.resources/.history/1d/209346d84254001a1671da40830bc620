@@ -1,0 +1,10 @@
+
+public class TestaMetodo {
+	public static void main(String[] args) {
+		Conta contaDoSergio = new Conta();
+		contaDoSergio.saldo = 100;
+		contaDoSergio.deposita(50);
+		
+		System.out.println("saldo da contaDoSergio: " + contaDoSergio.saldo);
+	}
+}

@@ -1,0 +1,15 @@
+
+public class TestaBanco {
+	public static void main(String[] args) {
+		Cliente sergio = new Cliente();
+		sergio.nome = "Sergio Carlos Fonseca Junior";
+		sergio.cpf = "111.222.333-99";
+		sergio.profissao = "Analista de Sistemas";
+		
+		Conta contaSergiao = new Conta();
+		contaSergiao.saldo = 125;
+		
+		System.out.println("saldo da conta do sergião: " + contaSergiao.saldo);
+	}
+
+}

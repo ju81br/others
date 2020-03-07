@@ -1,0 +1,12 @@
+
+public class TestaGetESet {
+	public static void main(String[] args) {
+		Conta conta = new Conta();
+		conta.setNumero(666);
+		System.out.println("Número da conta: " + conta.getNumero());
+		
+		conta.setAgencia(42);
+		System.out.println("Agencia: " + conta.getAgencia());
+	}
+
+}

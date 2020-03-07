@@ -1,0 +1,12 @@
+
+public class TestaContaSemCliente {
+	public static void main(String[] args) {
+		Conta contaBraddock = new Conta();
+		System.out.println("saldo do Braddock: " + contaBraddock.saldo);
+		
+		System.out.println("titular da conta Braddock: " + contaBraddock.titular);
+		
+		
+	}
+
+}
