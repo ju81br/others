@@ -1,0 +1,10 @@
+
+public class testaConta {
+
+	public static void main(String[] args) {
+		ContaCorrente cc = new ContaCorrente(123, 123456);
+		
+
+	}
+
+}

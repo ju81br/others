@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="bytebank-herdado/src/|bitebank-composto/src/|bytebank/src/|bitebank-encapsulado/src/|sintaxe-basica/src/|sintaxe-variaveis-e-fluxo/src/" kind="src" path=""/>
+	<classpathentry kind="src" path="bitebank-composto/src"/>
+	<classpathentry kind="src" path="bitebank-encapsulado/src"/>
+	<classpathentry kind="src" path="bytebank-herdado/src"/>
+	<classpathentry kind="src" path="bytebank/src"/>
+	<classpathentry kind="src" path="sintaxe-basica/src"/>
+	<classpathentry kind="src" path="sintaxe-variaveis-e-fluxo/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="sintaxe-variaveis-e-fluxo/bin"/>
+</classpath>
