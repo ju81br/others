@@ -3,7 +3,7 @@ public class TesteGerente {
     public static void main(String[] args) {
 
         Gerente g1 = new Gerente();
-        g1.setNome("Sérgio Fonseca");
+        g1.setNome("SÃ©rgio Fonseca");
         g1.setCpf("111.222.333-99");
         g1.setSalario(4500.0);
 
