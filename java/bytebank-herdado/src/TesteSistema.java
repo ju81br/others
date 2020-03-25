@@ -7,7 +7,7 @@ public static void main(String[] args) {
         si.autentica(g);
 
         Autenticavel c = new Cliente();
-        c.setSenha(1111);
+        c.setSenha(9);
         si.autentica(c);
 
     }
