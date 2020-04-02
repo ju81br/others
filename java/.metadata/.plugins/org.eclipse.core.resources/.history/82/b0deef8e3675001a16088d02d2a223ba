@@ -6,7 +6,7 @@ public class ContaCorrente extends Conta {
 	}
 	
 	@Override
-	public void saca(double valor) throws SaldoInsuficienteException {
+	public void saca(double valor) {
 		double sacarValor = valor + 0.2;
 		super.saca(sacarValor);
 	}
