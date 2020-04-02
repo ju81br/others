@@ -4,7 +4,7 @@ public class Fluxo {
         System.out.println("Inicio do main");
         try {
         	metodo1();
-        }catch(ArithmeticException | NullPointerException | MinhaExcecao ex){
+        }catch(Exception ex){ //ArithmeticException | NullPointerException | MinhaExcecao ex
         	String msg = ex.getMessage();
         	System.out.println("Mostra Exception: " + msg);
         	ex.printStackTrace();
@@ -12,13 +12,13 @@ public class Fluxo {
         System.out.println("Fim do main");
     }
 
-    private static void metodo1() {
+    private static void metodo1() throws MinhaExcecao {//checked
         System.out.println("Inicio do metodo1");
         metodo2();
         System.out.println("Fim do metodo1");
     }
 
-    private static void metodo2() {
+    private static void metodo2() throws MinhaExcecao { //checked
         System.out.println("Inicio do metodo2");
         //for(int i = 1; i <= 3; i++) {
         //    System.out.println(i);
