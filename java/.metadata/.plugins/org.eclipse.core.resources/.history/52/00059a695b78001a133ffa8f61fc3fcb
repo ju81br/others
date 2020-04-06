@@ -1,0 +1,29 @@
+package br.com.bytebank.banco.teste;
+
+public class TestaString {
+
+	public static void main(String[] args) {
+		
+		String nome = "Sergio"; //object literal
+		String outro = new String("Sergio");
+		
+		String sub = nome.substring(0);
+		System.out.println(sub);
+		
+//		int pos = nome.indexOf("gi");
+//		System.out.println(pos);
+		
+//		char c = nome.charAt(4);
+//		System.out.println(c);
+		
+//		char c = 'S';
+//		char d = 's';
+//		String outra = nome.replace(c, d);
+		//String outra = nome.replace("S", "s");
+		
+//		System.out.println(nome);
+//		System.out.println(outra);
+
+	}
+
+}
