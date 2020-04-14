@@ -9,7 +9,7 @@ import br.com.bytebank.banco.modelo.ContaCorrente;
 public class TesteArrayUtil {
 
 	public static void main(String[] args) {
-		ArrayList<Conta> lista = new ArrayList<Conta>();
+		ArrayList lista = new ArrayList();
 		
 		Conta cc = new ContaCorrente(12, 123);
         lista.add(cc);
@@ -17,8 +17,7 @@ public class TesteArrayUtil {
         Conta cc2 = new ContaCorrente(34, 345);
         lista.add(cc2);
         
-        //Conta ref = (Conta) lista.get(1); //faz o cast na referencia
-        Conta ref = lista.get(1); //faz o cast na referencia
+        Conta ref = (Conta) lista.get(1); //faz o cast na referencia
         
         System.out.println("Tamanho do array: " + lista.size());
         System.out.println("Posição do array: " + ref.getAgencia());
@@ -40,8 +39,8 @@ public class TesteArrayUtil {
         }
         System.out.println("--------------------------------------------------------");
 
-        for(Conta conta : lista) {
-            System.out.println(conta.getAgencia());
+        for(Object o : lista) {
+            System.out.println(o);
         }
         
         

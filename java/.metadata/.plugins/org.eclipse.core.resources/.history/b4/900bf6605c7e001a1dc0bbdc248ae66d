@@ -40,8 +40,8 @@ public class TesteArrayUtil {
         }
         System.out.println("--------------------------------------------------------");
 
-        for(Conta conta : lista) {
-            System.out.println(conta.getAgencia());
+        for(Object o : lista) {
+            System.out.println(o);
         }
         
         
