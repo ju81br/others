@@ -3,8 +3,11 @@
 <fullyQualifiedTypeName name="ContaCorrente"/>
 <fullyQualifiedTypeName name="ContaPoupanca"/>
 <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.SaldoInsuficienteException"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaPoupanca"/>
+<fullyQualifiedTypeName name="java.sql.Array"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conta"/>
 <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaCorrente"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
-<fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.ContaPoupanca"/>
 </qualifiedTypeNameHistroy>
